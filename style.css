@@ -5,8 +5,8 @@
   font-family: Harrington;
 }
 nav {
-  background-color: black;
-  color: aliceblue;
+  background-color: #000;
+  color: #fff;
   display: grid;
   grid-template-columns: 4fr 2fr 4fr;
   height: 40px;
@@ -19,7 +19,7 @@ nav .navItems {
 nav .navItems .line {
   height: 1px;
   width: 25px;
-  background-color: aliceblue;
+  background-color: #fff;
   position: relative;
 }
 nav label {
@@ -46,7 +46,7 @@ nav .items div {
 }
 nav input:checked ~ .items {
   display: block;
-  background: black;
+  background: #000;
   width: 250px;
   height: 580px;
   left: -20px;
@@ -57,7 +57,7 @@ nav h1 {
 nav a {
   text-decoration: none;
   text-align: right;
-  color: aliceblue;
+  color: #fff;
   padding-right: 20px;
 }
 header {
@@ -65,7 +65,7 @@ header {
   width: 100%;
   background: url(images/header.jpg);
   background-size: cover;
-  color: aliceblue;
+  color: #fff;
   margin-bottom: 100px;
 }
 header > h1,
