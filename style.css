@@ -49,7 +49,12 @@ nav input:checked ~ .items {
   background: #000;
   width: 250px;
   height: 580px;
+  transition: 0.5s ease;
   left: -20px;
+}
+nav input,
+.items {
+  transition: all 0.9s ease-in-out;
 }
 nav h1 {
   text-align: center;
@@ -99,4 +104,10 @@ header > h1 {
 }
 .grid h1 {
   margin-bottom: 20px;
+}
+.grid img:hover {
+  transform: scale(1.1);
+}
+.grid img {
+  transition: 0.5s ease;
 }
